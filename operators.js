@@ -131,6 +131,136 @@ else
     alert("i just have a number");
 }
 
+/*switch sttatement - this statement is used to perform different actions based on different conditions
+
+syntax for switch statement
+switch(){
+   * case 1;
+   * -> execution
+   * break;
+
+    *case 2:
+    *-> execution
+    *break;
+         
+    *case 3:
+    *-> execution
+    *break;
+
+    *case n:
+    *-> execution
+*/
+
+let day=3
+let dayName;
+
+switch(day){
+    case 1 :
+        dayName="monday";
+        break;
+
+        case 2 :
+            dayName="tuesday";
+            break;
+
+            case 3:
+                dayName="wednesday";
+            break;
+
+            case 4:
+                dayName="thursday";
+            break;
+
+            case 5:
+                dayName="friday";
+            break;
+
+            case 6:
+                dayName="saturday";
+            break;
+
+            case 7:
+                dayName="sunday";
+            break;
+}
+alert (dayName);
+default:
+    dayName=invalid Day;
+
+    /* in this example, it prints the day named based on the value of day.
+    if day is 1, it prints  "Monday"; if it is  2, it prints "Tuesday", if it is 3,"wednesday";
+    otherwise,it prints "invalid day".*/
+
+
+    /**loops
+     * loops statements in javascript are programming constructs that allow you to execute a block of code repeatedly.
+     * they are essential for automating repetetive  tasks, iterating over arrays or objects,and processing data.
+     * javascript provides several types of loop statements:
+     * 
+     *          1-> for loop: the for loop is used when you know the number of iterations before hand.
+     * it consists of three parts; initialization, condition and iteration expression.
+     * 
+     *               syntax
+     *        for (initialization; condition; iteration){
+      *          //code block to be executed}
+      *          
+     * 
+     *           2-> while loop: the while loop executes a block of code as long as a specified condition
+     * evaluates to true.
+     * 
+     *             syntax
+     * 
+     *             while(condition) {
+     *             //code block to be executed
+     *         } 
+     * 
+     *           3-> do-while loop:similar to the while loop,but it executes the code block atleast once before
+     * checking the condition.
+     * 
+     *              syntax
+     *  
+     *               do {
+     *                 // code block to be executed
+     *               while(condition);}
+     * 
+     */
+
+//exanmples of loops//
+    for(let i=0;i<10; i++){
+        alert(i);
+    }
+
+
+// while loop
+    let num =0;
+    while(num<5){
+        alert(num);
+        i++;
+
+        
+//do while
+let x=0;
+do{
+    alert(x);
+    x++;
+} while(x<20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+          
+
 
 
 
